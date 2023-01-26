@@ -1,0 +1,69 @@
+body {
+    background: url('../60879-skaly_priboj_more_chajki.jpg') center/cover no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    animation: title 5s linear infinite;
+}
+
+@keyframes title {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.styles {
+    width: 40%;
+    height: 90vh;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    margin: 50px 0;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.326);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
+    border-radius: 32px;
+}
+
+#inp {
+    width: 50%;
+    font-size: 30px;
+    box-shadow: 0px 8px 32px 0px rgb(255, 255, 255);
+    border-radius: 10px;
+    background: none;
+}
+
+.task {
+    box-shadow: 0px 8px 32px 0px rgb(255, 255, 255);
+    color: red;
+    margin: 15px 0;
+    animation: task 5s linear infinite;
+}
+
+@keyframes task {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.btnAdd {
+    width: 70px;
+}
